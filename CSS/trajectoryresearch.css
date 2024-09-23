@@ -29,8 +29,13 @@ h3 {
     border: 2px solid #b3b3b3;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
-#ODimages {
+.sectionhead {
     margin-top: 40px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #00685d;
+}
+#ODimages {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -52,6 +57,35 @@ h3 {
     color: #00685d;
 }
 .ODexplanation {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+    border: 2px solid #b3b3b3;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+#ODreverseimages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#odreverse {
+    text-align: center;
+}
+.ODreverseexplanation {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+    border: 2px solid #b3b3b3;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+#LJimages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.LJexplanation {
     width: 75%;
     margin: 0 auto;
     text-align: left;

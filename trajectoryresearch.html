@@ -12,26 +12,68 @@
     </head>
     <body>
         <h1>Trajectory Dynamics Research</h1>
-        <a href="https://github.com/mlee3001/TrajectoryResearch" target="_blank" class="githublink">
+        <a href="https://github.com/mlee3001/Trajectory-Research" target="_blank" class="githublink">
             <h3>GitHub Repository Link</h3>
         </a>
         <div class="description">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo similique illum debitis repellat tempora voluptatem architecto recusandae explicabo delectus tempore accusamus voluptatibus, doloribus at error, corrupti eligendi beatae excepturi necessitatibus?
+                This research is focused on the study of interaction kernels for interaction dynamics. The paper "Nonparametric inference of interaction laws in systems of agents 
+                from trajectory data", by Fei Lu et al, was primarily used as a basis for this research. Using algorithms to compute learning matricies and solve linear systems
+                in order to investigate the potential source interaction kernel for a dynamic system. The links to the paper and associated appendix can be found below.  
             </p>
+            <a href="Documents/trajectory-data-paper.pdf" id="Research Paper" target="_blank">
+                <p>Research Paper</p>
+            </a>
+            <a href="Documents/trajectory-data-appendix.pdf" id="Appendix" target="_blank">
+                <p>Appendix</p>
+            </a>
         </div>
+        <h3 class="sectionhead">Opinion Dynamics</h3>
         <div id="ODimages">
             <div class="animation-item">
-                <img src="Images/opiniondynamics1D.gif" alt="One dimensional interaction simulation animation">
+                <img src="Images/opiniondynamics1D.gif" alt="One dimensional attractive interaction simulation animation">
                 <p>1D Opinion Dynamics Simulation</p>
             </div>
             <div class="animation-item">
-                <img src="Images/opiniondynamics2D.gif" alt="Two dimensional interaction simulation animation">
+                <img src="Images/opiniondynamics2D.gif" alt="Two dimensional attractive interaction simulation animation">
                 <p>2D Opinion Dynamics Simulation</p>
             </div>
         </div>
         <div class="ODexplanation">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem, asperiores assumenda, corporis aperiam beatae aspernatur expedita velit ullam necessitatibus dolore temporibus eos, ipsam voluptate molestias eius ducimus adipisci quia!</p>
+            <p>
+                The above opinion dynamics simulations were created using the interaction kernel from the research appendix.
+                This simulation represents the attraction influence of people on each other and how consensus can form.
+                The method used for simulation and the subsequent learning of the source interaction kernel is dimensionally independent
+                and thus the 1 dimensional and 2 dimensional simulations are shown here to represent that.
+            </p>
+        </div>
+        <div id="ODreverseimages">
+            <div class="animation-item" id="odreverse">
+                <img src="Images/opiniondynamicsreverse.jpg" alt="One dimensional interaction simulation generated from learning algorithm">
+                <p>1D Reverse Opinion Dynamics Simulation</p>
+            </div>
+        </div>
+        <div class="ODreverseexplanation">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, placeat? Voluptatum iste, dolores nulla earum ducimus ipsa asperiores, voluptate cupiditate non id quae nobis facilis rem eum. Tempora, error in.
+            </p>
+        </div>
+
+        <h3 class="sectionhead">Lennard-Jones Dynamics</h3>
+        <div id="LJimages">
+            <div class="animation-item">
+                <img src="Images/lennardjones1D.gif" alt="One dimensional repulsive interaction simulation animation">
+                <p>1D Lennard-Jones Simulation</p>
+            </div>
+            <div class="animation-item">
+                <img src="Images/lennardjones2D.gif" alt="Two dimensional repulsive interaction simulation animation">
+                <p>2D Lennard-Jones Simulation</p>
+            </div>
+        </div>
+        <div class="LJexplanation">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam unde placeat. Perferendis reprehenderit nihil quidem culpa, commodi exercitationem neque nisi praesentium aliquam doloribus iusto impedit dolorum dolor, quaerat hic.
+            </p>
         </div>
     </body>
 </html>
