@@ -55,7 +55,20 @@
         </div>
         <div class="ODreverseexplanation">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, placeat? Voluptatum iste, dolores nulla earum ducimus ipsa asperiores, voluptate cupiditate non id quae nobis facilis rem eum. Tempora, error in.
+                The simulation above has been obtained by attempting to determine the interaction kernel governing the simulation
+                by utilizing the following algorithm:
+            </p>
+            <img id="algoimg" src="Images/algorithm1.png" alt="Algorithm for learning interaction kernels from observations">
+            <p>
+                This algorithm determines coefficients for basis functions that are then used to recreate the opinion dynamics 
+                simulation. This new simulation is then compared to one of the trajectories used to learn the kernel to determine 
+                success of the algorithm. The strength of the kernel at varying pairwise distances (r) are also compared to evaluate
+                the algorithm.
+            </p>
+            <img id="kernelcompareimg" src="Images/kernelcomparison.png" alt="Comparison graph for original kernel and new generated kernel">
+            <p>
+                Currently the least squares algorithm over estimates the coefficients for the basis functions. This is what results
+                in the fast condensation of the individual particles along with the significant differential between the two kernels.
             </p>
         </div>
 
@@ -72,7 +85,10 @@
         </div>
         <div class="LJexplanation">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam unde placeat. Perferendis reprehenderit nihil quidem culpa, commodi exercitationem neque nisi praesentium aliquam doloribus iusto impedit dolorum dolor, quaerat hic.
+                These simulations are generated in a similar manner to the opinion dynamics simulations. The main difference comes 
+                from the function of the governing kernel. In the Lennard-Jones simulation, the particles repulse instead of attract. 
+                This type of simulation is mainly used in particle simulations that represent atomic systems since the kernel can 
+                represent the Pauli repulsion force and the van der Waals force depending on the pairwise distance.
             </p>
         </div>
     </body>

@@ -80,6 +80,18 @@ h3 {
     border: 2px solid #b3b3b3;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
+#algoimg {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#kernelcompareimg {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 #LJimages {
     display: flex;
     justify-content: center;
